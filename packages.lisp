@@ -10,12 +10,14 @@
            :repeat
            :generic-case
            :with-gensyms
+           :eval-once
            :compose
            :constant
            :flip
            :map-functions
            :mappend
            :memoized-fn
+           :extract-args
            :*memoized-test-key*
            :*memoized-parameter-symbol*
            :memoize-fn
