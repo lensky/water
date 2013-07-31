@@ -7,7 +7,7 @@
            :hash-keys
            :hash-alist
            :delete-items
-           :repeat
+           :repeat-element
            :generic-case
            :with-gensyms
            :eval-once

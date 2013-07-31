@@ -62,5 +62,5 @@
 (defun delete-items (items sequence)
   (delete items sequence :test (flip #'find)))
 
-(defun repeat (element n)
+(defun repeat-element (element n)
   (loop for i from 1 to n collect element))
