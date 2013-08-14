@@ -17,3 +17,6 @@
 
 (defmethod g/=-bin ((x character) (y character))
   (char-equal x y))
+
+(defmethod g/=-bin ((x sequence) (y sequence))
+  (every #'g/= x y))

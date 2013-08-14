@@ -2,6 +2,7 @@
   :description "water: essential utility functions for common lisp."
   :version "0.3"
   :author "YL"
+  :depends-on (:iterate)
   :components ((:file "packages")
                (:file "macro" :depends-on ("packages"))
                (:file "sequence" :depends-on ("macro"))

@@ -1,5 +1,6 @@
 (defpackage #:water
-  (:use #:cl)
+  (:use #:cl
+        #:iterate)
   (:export :split-seq-on-seq
            :split-seq-on-elt
            :map-over-hash-values
@@ -11,6 +12,7 @@
            :generic-case
            :with-gensyms
            :eval-once
+           :assign-once
            :compose
            :constant
            :flip

@@ -13,5 +13,3 @@
                       for val in val-syms
                       collect ``(,,sym ,,val)))
             ,,@body)))))
-
-
