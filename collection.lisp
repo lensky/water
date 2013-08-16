@@ -1,4 +1,4 @@
-(in-package #:water)
+(in-package #:water.collection)
 
 (defun split-seq-backend (seq step-incr search-fun &key (include-splitter nil))
   "A backend for splitting a sequence on a generic delimiter type."

@@ -1,4 +1,4 @@
-(in-package #:water)
+(in-package #:water.g/=)
 
 (defgeneric g/=-bin (x y)
   (:documentation "Generic binary equal comparator."))

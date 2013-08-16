@@ -1,4 +1,4 @@
-(in-package #:water)
+(in-package #:water.control)
 
 (defmacro generic-case ((var-form &key (test '#'equal) (otherwise-key :otherwise)) &body cases)
   (let ((var (gensym)))

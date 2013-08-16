@@ -1,4 +1,4 @@
-(in-package #:water)
+(in-package #:water.function)
 
 (defun compose (f g) (lambda (&rest args) (funcall f (apply g args))))
 (defun constant (x) (lambda (&rest args) (declare (ignorable args)) x))

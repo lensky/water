@@ -1,4 +1,4 @@
-(in-package #:water)
+(in-package #:water.macro)
 
 (defmacro with-gensyms (symbols &body body)
   `(let ,(loop for sym in symbols

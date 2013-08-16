@@ -3,9 +3,10 @@
   :version "0.3"
   :author "YL"
   :depends-on (:iterate)
+  :serial t
   :components ((:file "packages")
-               (:file "macro" :depends-on ("packages"))
-               (:file "sequence" :depends-on ("macro"))
-               (:file "control" :depends-on ("macro"))
-               (:file "function" :depends-on ("macro"))
-               (:file "generic-comp" :depends-on ("macro"))))
+               (:file "macro")
+               (:file "collection")
+               (:file "control")
+               (:file "function")
+               (:file "generic-comp")))
